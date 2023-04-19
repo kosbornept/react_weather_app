@@ -4,7 +4,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 
 const api = {
   key: '356edc2c08aa4c53860141829230604',
-  base: 'http://api.weatherapi.com/v1'
+  base: 'https://api.weatherapi.com/v1'
 } 
 const geolocationAPI = navigator.geolocation;
 
@@ -61,7 +61,6 @@ export default function App() {
       return date.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", hour12: false })
     }
   console.log(weather);
-
 
   return (
     <div style={{backgroundImage: `url(${Background})`, height: '100vh', backgroundSize: 'cover', padding: '7rem'}} className="App">

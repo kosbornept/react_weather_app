@@ -60,7 +60,7 @@ export default function App() {
   
       return date.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", hour12: false })
     }
-  console.log(weather);
+  // console.log(weather);
 
   return (
     <div style={{backgroundImage: `url(${Background})`, height: '100vh', backgroundSize: 'cover', padding: '7rem'}} className="App">
